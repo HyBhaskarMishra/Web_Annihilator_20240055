@@ -149,7 +149,7 @@ const AppointmentForm = ({
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 flex-1">
         {type === "create" && (
           <section className="mb-12 space-y-4">
-            <h1 className="header">Hi there 👋</h1>
+            <h1 className="header">Almost there! </h1>
             <p className="text-dark-700">Request a appointment in 10 seconds</p>
           </section>
         )}
@@ -166,13 +166,13 @@ const AppointmentForm = ({
               {Doctors.map((doctor) => (
                 <SelectItem key={doctor.name} value={doctor.name}>
                   <div className="flex cursor-pointer items-center gap-2">
-                    <Image
-                      src={doctor.image}
+                    {/* <Image
+                      // src={doctor.image}
                       alt={doctor.name}
                       height={32}
                       width={32}
                       className="rounded-full border border-dark-500"
-                    />
+                    /> */}
                     <p>{doctor.name}</p>
                   </div>
                 </SelectItem>

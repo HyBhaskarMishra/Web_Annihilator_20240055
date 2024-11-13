@@ -29,54 +29,39 @@ export const PatientFormDefaultValues = {
 export const IdentificationTypes = [
   "Aadhar Card",
   "Birth Certificate",
-  "Driver's License",
-  "Medical Insurance Card/Policy",
-  "Military ID Card",
-  "National Identity Card",
+  "Driving License",
   "Passport",
-  "Resident Alien Card (Green Card)",
-  "Social Security Card",
-  "State ID Card",
   "Student ID Card",
   "Voter ID Card",
 ];
 
 export const Doctors = [
   {
-    image: "/assets/images/dr-green.png",
-    name: "John Green",
+    name: "Dr. Bhaskar Mishra",
   },
   {
-    image: "/assets/images/dr-cameron.png",
-    name: "Leila Cameron",
+    name: "Dr. Anuj Pratap Singh",
   },
   {
-    image: "/assets/images/dr-livingston.png",
-    name: "David Livingston",
+    name: "MS Rachit Yadav",
   },
   {
-    image: "/assets/images/dr-peter.png",
-    name: "Evan Peter",
+    name: "Dr. kaushik Raj",
   },
   {
-    image: "/assets/images/dr-powell.png",
-    name: "Jane Powell",
+    name: "Dr. Anshul Rathore",
   },
   {
-    image: "/assets/images/dr-remirez.png",
-    name: "Alex Ramirez",
+    name: "Dr. Yash Chore",
   },
   {
-    image: "/assets/images/dr-lee.png",
-    name: "Jasmine Lee",
+    name: "MS Dviyanshu Kumar Bharti ",
   },
   {
-    image: "/assets/images/dr-cruz.png",
-    name: "Alyana Cruz",
+    name: "Dr. A.N. Saranya",
   },
   {
-    image: "/assets/images/dr-sharma.png",
-    name: "Hardik Sharma",
+    name: "Dr. keerthana Guddeli",
   },
 ];
 

@@ -119,7 +119,7 @@ const RegisterForm = ({ user }: { user: User }) => {
           fieldType={FormFieldType.INPUT}
           control={form.control}
           name="name"
-          placeholder="John Doe"
+          placeholder="Bhaskar Mishra"
           iconSrc="/assets/icons/User.svg"
           iconAlt="PatientFormValidation"
         />
@@ -130,7 +130,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="email"
             label="Email"
-            placeholder="johndoe25@gmail.com"
+            placeholder="hyBhaskarMishra@gmail.com"
             iconSrc="/assets/icons/email.svg"
             iconAlt="email"
           />
@@ -230,13 +230,13 @@ const RegisterForm = ({ user }: { user: User }) => {
           {Doctors.map((doctor) => (
             <SelectItem key={doctor.name} value={doctor.name}>
               <div className="flex cursor-pointer items-center gap-2">
-                <Image
+                {/* <Image
                   src={doctor.image}
                   alt={doctor.name}
                   height={32}
                   width={32}
                   className="rounded-full border border-dark-500"
-                />
+                /> */}
                 <p>{doctor.name}</p>
               </div>
             </SelectItem>
